@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
     <title>Bootstrap Portfolio</title>
 </head>
 <body>
@@ -31,10 +31,10 @@
         4. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
     --> 
         
-  <div class="container d-flex flex-column">
-      <div class="navbar navbar-expand-lg navbar-light">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="index.html">Joel Zehring</a>
+  <div class="container-sm d-flex flex-column">
+      <div class="col-md-12 navbar  navbar-light">
+        <nav class="col-md-12 navbar navbar-expand-lg">
+          <a class="navbar-brand rounded-sm " href="index.html">Joel Zehring</a>
         
           <div class="navbar-collapse collapse show" id="navbarSupportedContent" style="">
             <ul class="navbar-nav mr-auto">
@@ -52,21 +52,29 @@
         </nav>
         
       </div>
-      <div class="rows">
+      <div class="row flex-grow-1">
           <main class="col-md-12 card shadow-sm">
             <div class="row">
-              <h2 class="card-header col-md-12">About Me</h2>
+              <h4 class="col-md-12 border-bottom">About Me</h4>
             </div>
             <div class="row">
-              <p class="col-md-12 card-body about-content">lorem ipsum</p>
-            </div>
+							<div class="card-body">
+							<img class="img-thumbnail float-left" src="assets/images/headshot.jpg" alt="Headshot of Joel">
+              <p class="col-md-12 about-content">Web Developer with a relentless commitment to user experience. Full Stack Certificate in progress through University of Arizona Coding Boot Camp complemented by Responsive Web Design Certificate through Free Code Camp. Proficient in HTML, CSS, and JavaScript as well as modern web frameworks like React, Eleventy, Bootstrap, and jQuery. Eager to master new tools, techniques, and technologies to create robust, elegant solutions for customers, clients, and users. Recently learned and leveraged Node, Eleventy, and Flexbox to build a fast, responsive, personal JAM stack site. In team settings, I work to bring out the best in all team members whether I’m leading or in a supporting role. Drawing on my background in teaching, business leadership, and customer service, I approach each project with curiosity and empathy to deliver experiences that exceed expectations.</p>
+							</div>
+						</div>
           </main>
       </div>
-      <div class="row fixed-bottom">
-          <footer>
-              <p>Copyright Joel Zehring 2019</p>
-          </footer>
-      </div>
+			
+ 
   </div>
+
+  <footer class="footer">
+		<div class="container">
+			<p class="col-md-4"></p>
+      <p class="col-md-4 text-center">Copyright Joel Zehring 2019</p>
+			<p class="col-md-4"></p>
+		</div>
+  </footer>
 </body>
 </html>

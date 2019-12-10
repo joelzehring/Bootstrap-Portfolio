@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+    <title>Bootstrap Portfolio</title>
+</head>
+<body>
+    <!--
+        ### Assignment One Instructions (Bootstrap)
+
+        1. Inside your `Bootstrap-Portfolio` repo, create `index.html`, `portfolio.html` and `contact.html`.
+
+        2. Using Bootstrap, recreate your portfolio site with the following items:
+
+        * A navbar
+
+        * A responsive layout (remember the grid, rows and columns are your friends)
+
+            * eg. On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right side of the screen. Check out various sites on your mobile device versus your computer to see this in action!
+
+        * Responsive images
+
+        **BONUS**
+        Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site _(Hint: Check out the Bootstrap documentation)_
+
+        3. Your Bootstrap solution should minimize use of media queries.
+
+        4. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
+    --> 
+        
+  <div class="container-sm d-flex flex-column">
+      <div class="col-md-12 navbar  navbar-light">
+        <nav class="col-md-12 navbar navbar-expand-lg">
+          <a class="navbar-brand rounded-sm " href="index.html">Joel Zehring</a>
+        
+          <div class="navbar-collapse collapse show" id="navbarSupportedContent" style="">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        
+      </div>
+      <div class="rows">
+          <main class="col-md-12 card shadow-sm">
+            <div class="row">
+              <h4 class="col-md-12 border-bottom">Portfolio</h4>
+            </div>
+            <div class="row">
+              <div>
+								<a href="https://biblememorygame.netlify.com">
+								<div class="project1 project rounded-sm">
+									<p class="project-title heading">Bible Memory Game</p>
+		  					  </div>
+								</a>
+		  					  <a href="https://hardcore-tereshkova-7e5b8c.netlify.com/">
+								<div class="project2 project rounded-sm">
+									<p class="project-title heading">Markdown Previewer</p>
+		  					  </div>
+								</a>
+		  					  <a href="https://joelz.me/blog">
+								<div class="project3 project rounded-sm">
+									<p class="project-title heading">Personal Blog Site</p>
+		  					  </div>
+								</a>
+		  					  <a href="https://codepen.io/joelzehring">
+								<div class="project4 project rounded-sm">
+									<p class="project-title heading">Code Pen Projects</p>
+		  					  </div>
+								</a>
+							</div>
+            </div>
+          </main>
+      </div>
+      <div class="row fixed-bottom">
+          <footer class="col-md-12">
+						<div class="row">
+							<p class="col-md-4"></p>
+              <p class="col-md-4 text-center">Copyright Joel Zehring 2019</p>
+							<p class="col-md-4"></p>
+						</div>
+          </footer>
+      </div>
+  </div>
+</body>
+</html>
