@@ -6,31 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
     <title>Bootstrap Portfolio</title>
-		<style>
 
-			html, body {
-				height: 100%;
-				background: #dddddd;
-			}
-
-			header {
-				width: 100%;
-				background: #ffffff;
-			}
-
-			.main-content {
-				background: #ffffff;
-			}
-
-			footer {
-				position: absolute;
-				bottom: 0;
-				width: 100%;
-				background: #666666;
-				color: #ffffff;
-			}
-
-		</style>
 </head>
 <body>
     <!--
@@ -56,7 +32,7 @@
         4. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
     --> 
         
-	<header>
+	<header class="border-bottom">
 		<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
   		<a class="navbar-brand p-3 text-white bg-info" href="index.html">Joel Zehring</a>
@@ -65,11 +41,11 @@
   		</button>
   		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
   		  <ul class="navbar-nav">
-  		    <li class="nav-item">
-  		      <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+  		    <li class="nav-item ">
+  		      <a class="nav-link" href="index.html">About</a>
   		    </li>
   		    <li class="nav-item active">
-  		      <a class="nav-link" href="portfolio.html">Portfolio</a>
+  		      <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
   		    </li>
   		    <li class="nav-item">
   		      <a class="nav-link" href="contact.html">Contact</a>
@@ -82,11 +58,14 @@
 
 	<main class="container">
 		<div class="main-content row m-3 p-3 shadow">
-			<p>lorem ipsum</p>
+			<h3 class="w-100 p-2 border-bottom">Portfolio</h3>
+			<div class="row m-1 p-1">
+			<img class="text-left img-headshot" src="assets/images/headshot.jpg">
+			</div>
 		</div>
 	</main>
 
-  <footer>
+  <footer class="border-top border-info">
 		<div class="container">
 				<div class="d-flex justify-content-center">
 					<p>Copyright Joel Zehring 2019</p>
