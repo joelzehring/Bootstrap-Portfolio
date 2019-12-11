@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
     <title>Bootstrap Portfolio</title>
+
 </head>
 <body>
     <!--
@@ -31,50 +32,47 @@
         4. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
     --> 
         
-  <div class="container-sm d-flex flex-column">
-      <div class="col-md-12 navbar  navbar-light">
-        <nav class="col-md-12 navbar navbar-expand-lg">
-          <a class="navbar-brand rounded-sm " href="index.html">Joel Zehring</a>
-        
-          <div class="navbar-collapse collapse show" id="navbarSupportedContent" style="">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        
-      </div>
-      <div class="row flex-grow-1">
-          <main class="col-md-12 card shadow-sm">
-            <div class="row">
-              <h4 class="col-md-12 border-bottom">About Me</h4>
-            </div>
-            <div class="row">
-							<div class="card-body">
-							<img class="img-thumbnail float-left" src="assets/images/headshot.jpg" alt="Headshot of Joel">
-              <p class="col-md-12 about-content">Web Developer with a relentless commitment to user experience. Full Stack Certificate in progress through University of Arizona Coding Boot Camp complemented by Responsive Web Design Certificate through Free Code Camp. Proficient in HTML, CSS, and JavaScript as well as modern web frameworks like React, Eleventy, Bootstrap, and jQuery. Eager to master new tools, techniques, and technologies to create robust, elegant solutions for customers, clients, and users. Recently learned and leveraged Node, Eleventy, and Flexbox to build a fast, responsive, personal JAM stack site. In team settings, I work to bring out the best in all team members whether I’m leading or in a supporting role. Drawing on my background in teaching, business leadership, and customer service, I approach each project with curiosity and empathy to deliver experiences that exceed expectations.</p>
-							</div>
-						</div>
-          </main>
-      </div>
-			
- 
-  </div>
-
-  <footer class="footer">
+	<header class="border-bottom">
 		<div class="container">
-			<p class="col-md-4"></p>
-      <p class="col-md-4 text-center">Copyright Joel Zehring 2019</p>
-			<p class="col-md-4"></p>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
+  		<a class="navbar-brand p-3 text-white bg-info" href="index.html">Joel Zehring</a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  		  <span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+  		  <ul class="navbar-nav">
+  		    <li class="nav-item active">
+  		      <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+  		    </li>
+  		    <li class="nav-item">
+  		      <a class="nav-link" href="portfolio.html">Portfolio</a>
+  		    </li>
+  		    <li class="nav-item">
+  		      <a class="nav-link" href="contact.html">Contact</a>
+  		    </li>
+  		  </ul>
+  		</div>
+		</nav>
+		</div>
+	</header>
+
+	<main class="container">
+		<div class="main-content row m-3 p-3 shadow">
+			<h3 class="w-100 p-2 border-bottom">About Me</h3>
+			<div class="row m-1 p-1">
+			<img class="text-left img-headshot" src="assets/images/headshot.jpg">
+			<p class="text-dark">Web Developer with a relentless commitment to user experience. Full Stack Certificate in progress through University of Arizona Coding Boot Camp complemented by Responsive Web Design Certificate through Free Code Camp. Proficient in HTML, CSS, and JavaScript as well as modern web frameworks like React, Eleventy, Bootstrap, and jQuery. Eager to master new tools, techniques, and technologies to create robust, elegant solutions for customers, clients, and users. Recently learned and leveraged Node, Eleventy, and Flexbox to build a fast, responsive, personal JAM stack site. In team settings, I work to bring out the best in all team members whether I’m leading or in a supporting role. Drawing on my background in teaching, business leadership, and customer service, I approach each project with curiosity and empathy to deliver experiences that exceed expectations.</p>
+			</div>
+		</div>
+	</main>
+
+  <footer class="border-top border-info">
+		<div class="container">
+				<div class="d-flex justify-content-center">
+					<p>Copyright Joel Zehring 2019</p>
+				</div>
 		</div>
   </footer>
+
 </body>
 </html>

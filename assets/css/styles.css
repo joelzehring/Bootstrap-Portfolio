@@ -1,47 +1,28 @@
-    
-body {
-  background-image: url("../../assets/images/gplaypattern_@2X.png");
+html, body {
+	height: 100%;
+	background: url("../../assets/images/gplaypattern_@2X.png");
 }
 
-nav {
-	background: white;
-	border: 1px solid #ccc;
+header {
+	width: 100%;
+	background: #ffffff;
 }
 
-.navbar-brand {
-	background: #4aaaa5;
-	color: white !important;
-	padding: 1em;
-
+.main-content {
+	background: #ffffff;
 }
 
-main {
-  background: white;
-	margin-top: 1em;
-	padding-top: 1em;
+.img-headshot {
+	height: 250px;
+	width: 250px;
 }
 
-h4 {
-	padding-bottom: 1em;
-}
-
-.img-thumbnail {
-	height: 300px;
-	width: 300px;
-	margin-right: 1em;
-}
-
-.footer {
+footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	background: #666;
-	color: white;
-	border-top: 1em solid #4aaaa5;
-}
-
-* {
-  border: 0 solid black;
+	background: #666666;
+	color: #ffffff;
 }
 
   /*---- Homework Specs ----*/
@@ -164,6 +145,8 @@ footer p {
 
 /*---- Project Page and Project Thumbs ----*/
 
+/*
+
 .project {
 	display: inline-block;
 	height: 16em;
@@ -208,7 +191,11 @@ footer p {
 	no-repeat;
 }
 
+*/
+
 /*---- About page ----*/
+
+/*
 
 .img-headshot {
 	height: 150px;
@@ -221,7 +208,11 @@ footer p {
 	line-height: 2em;
 }
 
+*/
+
 /*---- Contact Form ----*/
+
+/*
 
 form {
 	width: 100%;	
