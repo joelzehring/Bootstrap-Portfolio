@@ -1,6 +1,8 @@
-html, body {
+body {
 	height: 100%;
 	background: url("../../assets/images/gplaypattern_@2X.png");
+	display: flex;
+	flex-direction: column;
 }
 
 header {
@@ -13,12 +15,17 @@ header {
 }
 
 .img-headshot {
-	height: 250px;
-	width: 250px;
+	height: 200px;
+	width: 200px;
+}
+
+.project-tile {
+	height: 200px;
+	width: 200px;
 }
 
 footer {
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	width: 100%;
 	background: #666666;
@@ -145,8 +152,6 @@ footer p {
 
 /*---- Project Page and Project Thumbs ----*/
 
-/*
-
 .project {
 	display: inline-block;
 	height: 16em;
@@ -190,8 +195,6 @@ footer p {
 	center left / 250%
 	no-repeat;
 }
-
-*/
 
 /*---- About page ----*/
 

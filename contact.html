@@ -56,12 +56,20 @@
 		</div>
 	</header>
 
-	<main class="container">
+	<main class="container flex-grow-1">
 		<div class="main-content row m-3 p-3 shadow">
 			<h3 class="w-100 p-2 border-bottom">Contact</h3>
 			<div class="row m-1 p-1">
-			<img class="text-left img-headshot" src="assets/images/headshot.jpg">
-			</div>
+					<form>
+						<label for="user-name">Name</label>
+						<input type="text" name="user-name" id="user-name" placeholder="John Smith" required="">
+				    		<label for="user-email">Email</label>
+						<input type="email" name="user-email" id="user-email" placeholder="example@gmail.com" required="">
+				    		<label for="user-message">Message</label>
+						<textarea name="user-message" id="user-message" required=""></textarea>
+						<button type="submit">Submit</button>
+					</form>
+				</div>
 		</div>
 	</main>
 
